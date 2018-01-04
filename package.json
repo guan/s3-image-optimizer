@@ -1,0 +1,15 @@
+{
+  "name": "s3-image-optimizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r deploy.zip index.js node_modules/"
+  },
+  "author": "mitsuruog",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "gm": "^1.23.1"
+  }
+}
